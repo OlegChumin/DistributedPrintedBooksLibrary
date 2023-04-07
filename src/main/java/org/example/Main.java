@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
 
-    private String greeting;
+    private final String greeting;
 
     public Main() {
         this.greeting = "Hello and welcome!";
