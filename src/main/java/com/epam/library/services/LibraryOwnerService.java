@@ -9,4 +9,16 @@ public interface LibraryOwnerService {
     LibraryOwner findById(Long id);
     LibraryOwner save(LibraryOwner libraryOwner);
     void deleteById(Long id);
+
+    LibraryOwner addLibraryOwner(LibraryOwner libraryOwner);
+
+    LibraryOwner getLibraryOwnerById(Long id);
+
+    LibraryOwner updateLibraryOwner(Long id, LibraryOwner libraryOwner);
+
+    void deleteLibraryOwner(Long id);
+
+    List<LibraryOwner> getAllLibraryOwners();
+
+    void deleteLibraryOwnerById(Long id);
 }

@@ -9,4 +9,12 @@ public interface BookService {
     Book findById(Long id);
     Book save(Book book);
     void deleteById(Long id);
+
+    Book addBook(Book book);
+
+    Book getBookById(Long id);
+
+    List<Book> getAllBooks();
+
+    void deleteBookById(Long id);
 }

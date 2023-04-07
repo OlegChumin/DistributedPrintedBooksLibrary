@@ -1,5 +1,13 @@
 package com.epam.library.controllers;
 
+import com.epam.library.models.entities.Book;
+import com.epam.library.models.entities.dto.BookDTO;
+import com.epam.library.services.BookService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
 @RestController
 @RequestMapping("/books")
 public class BookController {
@@ -11,7 +19,10 @@ public class BookController {
     }
 
     @PostMapping
-    public ResponseEntity<Book> addBook(@RequestBody Book book) {
+    public ResponseEntity<Book> addBook(@RequestBody BookDTO bookDTO) {
+        Book book = new Book();
+        book.setTitle(bookDTO.getTitle());
+        book.setAuthor(bookDTO.getAuthor());
         Book addedBook = bookService.addBook(book);
         return ResponseEntity.ok().body(addedBook);
     }
