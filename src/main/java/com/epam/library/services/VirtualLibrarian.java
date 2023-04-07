@@ -1,7 +1,7 @@
 package com.epam.library.services;
 
-import com.example.library.models.Book;
-import com.example.library.models.User;
+import com.epam.library.models.entities.Book;
+import com.epam.library.models.entities.User;
 import org.springframework.stereotype.Service;
 
 @Service
