@@ -50,6 +50,13 @@
             <version>6.0.7</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+
         <!-- JUnit Jupiter API for unit testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -75,6 +82,7 @@
             <artifactId>jakarta.persistence-api</artifactId>
             <version>2.2.3</version>
         </dependency>
+
     </dependencies>
 
     <build>
