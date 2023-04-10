@@ -1,0 +1,22 @@
+C:\Users\Oleg_Chumin>docker pull mysql
+Using default tag: latest
+latest: Pulling from library/mysql
+328ba678bf27: Pull complete
+f3f5ff008d73: Pull complete
+dd7054d6d0c7: Pull complete
+70b5d4e8750e: Pull complete
+cdc4a7b43bdd: Pull complete
+3e9c0b61a8f3: Pull complete
+806a08b6c085: Pull complete
+021b2cebd832: Pull complete
+ad31ba45b26b: Pull complete
+0d4c2bd59d1c: Pull complete
+148dcef42e3b: Pull complete
+Digest: sha256:f496c25da703053a6e0717f1d52092205775304ea57535cc9fcaa6f35867800b
+Status: Downloaded newer image for mysql:latest
+docker.io/library/mysql:latest
+
+C:\Users\Oleg_Chumin>docker run --name mysql -e MYSQL_ROOT_PASSWORD=01601 -p 3306:3306 -d mysql:latest
+43e018c0f05961da036d44a96cd7982f024463adbb9dffbd95221dfd57639e4f
+
+C:\Users\Oleg_Chumin>
