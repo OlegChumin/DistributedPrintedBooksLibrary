@@ -2,31 +2,31 @@ Distributed printed private books library
 
 ![img_1.png](img_1.png)
 Task 1
-TimeToResolve: 
+TimeToResolve: 4:57h
 
 Task 2
-TimeToResolve:
+TimeToResolve: 1:5h
 
 Task 3
-TimeToResolve:
+TimeToResolve: 1:3h
 
 Task 4
-TimeToResolve:
+TimeToResolve: 1:05h
 
 Task 5
-TimeToResolve:
+TimeToResolve: 1:50h
 
 Task 6
-TimeToResolve:
+TimeToResolve: 1:30h
 
 Task 7
-TimeToResolve:
+TimeToResolve: 1:47h
 
 Task 8
-TimeToResolve:
+TimeToResolve: 1:25h
 
 Task 9
-TimeToResolve:
+TimeToResolve: 0:31h
 
 Task 10
-TimeToResolve: 
+TimeToResolve: 0:17h
