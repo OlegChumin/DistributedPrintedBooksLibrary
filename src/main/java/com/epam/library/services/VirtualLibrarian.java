@@ -7,8 +7,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class VirtualLibrarian {
 
-    // Здесь вы можете добавить методы для выполнения задач, таких как отправка напоминаний о сроке сдачи книг, обработка запросов на книги и т. д.
+    // Here you can add methods to perform tasks such as sending book due date reminders,
+    // handle requests for books, etc.
     public void sendDueDateReminder(User user, Book book) {
-        // Реализация отправки напоминания о сроке сдачи книги
+        //  Implementation of sending a reminder about the due date of the book
     }
 }
