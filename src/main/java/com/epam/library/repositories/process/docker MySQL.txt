@@ -32,3 +32,41 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
+mysql> CREATE DATABASE IF NOT EXISTS library;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> USE library
+Database changed
+mysql> CREATE TABLE books (
+    ->   id INT NOT NULL AUTO_INCREMENT,
+    ->   title VARCHAR(255) NOT NULL,
+    ->   author VARCHAR(255) NOT NULL,
+    ->   year INT NOT NULL,
+    ->   PRIMARY KEY (id)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> CREATE TABLE User (
+    ->   id INT NOT NULL AUTO_INCREMENT,
+    ->   first_name VARCHAR(255) NOT NULL,
+    ->   last_name VARCHAR(255) NOT NULL,
+    ->   email VARCHAR(255) NOT NULL,
+    ->   password VARCHAR(255) NOT NULL,
+    ->   PRIMARY KEY (id)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> CREATE TABLE LibraryOwner (
+    ->   id INT NOT NULL AUTO_INCREMENT,
+    ->   first_name VARCHAR(255) NOT NULL,
+    ->   last_name VARCHAR(255) NOT NULL,
+    ->   email VARCHAR(255) NOT NULL,
+    ->   password VARCHAR(255) NOT NULL,
+    ->   library_name VARCHAR(255) NOT NULL,
+    ->   address VARCHAR(255) NOT NULL,
+    ->   phone_number VARCHAR(255) NOT NULL,
+    ->   PRIMARY KEY (id)
+    -> );
+Query OK, 0 rows affected (0.01 sec)
+
+
