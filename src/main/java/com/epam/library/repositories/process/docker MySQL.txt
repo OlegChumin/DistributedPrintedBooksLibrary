@@ -69,4 +69,15 @@ mysql> CREATE TABLE LibraryOwner (
     -> );
 Query OK, 0 rows affected (0.01 sec)
 
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_library |
++-------------------+
+| LibraryOwner      |
+| User              |
+| books             |
++-------------------+
+3 rows in set (0.00 sec)
+
+mysql>
 
